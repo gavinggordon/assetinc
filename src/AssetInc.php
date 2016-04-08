@@ -2,12 +2,12 @@
 
 namespace GGG\Includer;
 
-class Includer
+class AssetInc
 {
 	
 	public function __construct( $type )
 	{
-		$typeclass = trim( '\\GGG\\Includer\\Assets\\ ' ) . ucfirst( $type );
+		$typeclass = trim( '\\GGG\\AssetInc\\Assets\\ ' ) . ucfirst( $type );
 		if( class_exists( $typeclass ) ) {
 			return new $typeclass;
 		} else {
