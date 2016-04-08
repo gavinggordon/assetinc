@@ -1,12 +1,12 @@
 # Includer
 
-[![Build Status](https://travis-ci.org/gavinggordon/includer.svg?branch=master)](https://travis-ci.org/gavinggordon/includer)
+[![Build Status](https://travis-ci.org/gavinggordon/includer.svg?branch=master)](https://travis-ci.org/gavinggordon/AssetInc)
 
-This class (GGG\Includer\Includer) provides a simple and quick way to include/add JS or CSS assets to an HTML document.
+This class (GGG\AssetInc\AssetInc) provides a simple and quick way to include/add JS or CSS assets to an HTML document.
 
 ## Installation
 
-	composer require gavinggordon/includer
+	composer require gavinggordon/assetinc
 
 ## Examples
 
@@ -14,26 +14,26 @@ This class (GGG\Includer\Includer) provides a simple and quick way to include/ad
 
 	include_once( __DIR__ . '/vendor/autoload.php' );
 	
-	$JSincluder = new \GGG\Includer\Includer( 'js' );
+	$JSasset = new \GGG\AssetInc\AssetInc( 'js' );
 	
-	$CSSincluder = new \GGG\Includer\Includer( 'css' );
+	$CSSasset = new \GGG\AssetInc\AssetInc( 'css' );
 
 #### JS:
 
-    $JSincluder->insert( 'jquery' );
+    $JSasset->insert( 'jquery' );
     // Result: <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	
-	$JSincluder->add_asset( ASSET_NAME, ASSET_URL );
-	$JSincluder->insert( ASSET_NAME );
+	$JSasset->add_asset( ASSET_NAME, ASSET_URL );
+	$JSasset->insert( ASSET_NAME );
 	// Result: ASSET_URL
 	
 #### CSS:
 
-    $CSSincluder->insert( 'font-awesome' );
+    $CSSasset->insert( 'font-awesome' );
     // Result: <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 	
-	$CSSincluder->add_asset( ASSET_NAME, ASSET_URL );
-	$CSSincluder->insert( ASSET_NAME );
+	$CSSasset->add_asset( ASSET_NAME, ASSET_URL );
+	$CSSasset->insert( ASSET_NAME );
 	// Result: ASSET_URL
 
 

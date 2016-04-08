@@ -1,10 +1,10 @@
 <?php
 
-namespace GGG\Includer\Assets;
+namespace GGG\AssetInc\Assets;
 
-use \GGG\Includer\Assets\Abstracts\AbstractAsset;
-use \GGG\Includer\Assets\Interfaces\AssetInterface;
-use \GGG\Includer\Assets\Traits\StyleVendors;
+use \GGG\AssetInc\Assets\Abstracts\AbstractAsset;
+use \GGG\AssetInc\Assets\Interfaces\AssetInterface;
+use \GGG\AssetInc\Assets\Traits\StyleVendors;
 
 class Css extends AbstractAsset implements AssetInterface
 {

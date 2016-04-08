@@ -1,6 +1,6 @@
 <?php
 
-namespace GGG\Includer\Assets\Traits;
+namespace GGG\AssetInc\Assets\Traits;
 
 trait ScriptVendors
 {

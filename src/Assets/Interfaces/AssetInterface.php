@@ -1,6 +1,6 @@
 <?php
 
-namespace GGG\Includer\Assets\Interfaces;
+namespace GGG\AssetInc\Assets\Interfaces;
 
 abstract class AssetInterface
 {

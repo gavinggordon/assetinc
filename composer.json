@@ -1,5 +1,5 @@
 {
-	"name": "gavinggordon/includer",
+	"name": "gavinggordon/assetinc",
 	"description": "A PHP class which provides simple javascript or css asset inclusion.",
 	"license": "MIT",
 	"keywords": [
@@ -41,7 +41,7 @@
 	},
 	"autoload": {
 			"psr-4": {
-				"GGG\\Includer\\": "src"
+				"GGG\\AssetInc\\": "src"
 		}
 	}
 }

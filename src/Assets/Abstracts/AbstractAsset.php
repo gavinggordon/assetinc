@@ -1,6 +1,6 @@
 <?php
 
-namespace GGG\Includer\Assets\Abstracts;
+namespace GGG\AssetInc\Assets\Abstracts;
 
 abstract class AbstractAsset
 {
