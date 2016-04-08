@@ -9,11 +9,10 @@ abstract class AbstractAsset
 	{
 		$asset = strtolower( $asset );
 		if( array_key_exists( $asset, $this->assets ) ) {
-			echo $this->assets[ $asset ];
+			return $this->assets[ $asset ];
 		} else {
-			echo 'Asset ' . $asset . ' does not exist.';
+			return 'Asset ' . $asset . ' does not exist.';
 		}
-		return $this;
 	}
 	
 	public function add_asset( $asset, $url )
@@ -21,9 +20,9 @@ abstract class AbstractAsset
 		$asset = strtolower( $asset );
 		if(! array_key_exists( $asset, $this->assets ) ) {
 			$this->assets[ $asset ] = $url;
+			return $this;
 		} else {
-			echo 'Asset ' . $asset . ' already exists.';
+			return 'Asset ' . $asset . ' already exists.';
 		}
-		return $this;
 	}
 }
