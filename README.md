@@ -1,6 +1,6 @@
-# Includer
+# AssetInc
 
-[![Build Status](https://travis-ci.org/gavinggordon/includer.svg?branch=master)](https://travis-ci.org/gavinggordon/AssetInc)
+[![Build Status](https://travis-ci.org/gavinggordon/assetinc.svg?branch=master)](https://travis-ci.org/gavinggordon/AssetInc)
 
 This class (GGG\AssetInc\AssetInc) provides a simple and quick way to include/add JS or CSS assets to an HTML document.
 
