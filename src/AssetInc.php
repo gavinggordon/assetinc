@@ -5,9 +5,9 @@ namespace GGG\AssetInc;
 class AssetInc
 {
 	
-	public function __construct( $type )
+	public static function init( $type )
 	{
-		$typeclass = trim( '\\GGG\\AssetInc\\Assets\\ ' ) . ucfirst( $type );
+		$typeclass = '\\GGG\\AssetInc\\Assets\\' . ucfirst( $type );
 		if( class_exists( $typeclass ) ) {
 			return new $typeclass;
 		} else {
