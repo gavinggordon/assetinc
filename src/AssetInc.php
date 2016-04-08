@@ -1,6 +1,6 @@
 <?php
 
-namespace GGG\Includer;
+namespace GGG\AssetInc;
 
 class AssetInc
 {
