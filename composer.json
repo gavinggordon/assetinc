@@ -1,0 +1,45 @@
+{
+	"name": "gavinggordon/includer",
+	"description": "A PHP class which provides simple javascript or css asset inclusion.",
+	"license": "MIT",
+	"keywords": [
+	  	"v1.0.0",
+		"php",
+		"html",
+		"includer",
+		"stylesheet",
+		"css",
+		"javascript",
+		"js"
+	],
+	"authors": [
+		{
+			"name": "Gavin G Gordon",
+			"email": "support@gavingordon.com",
+			"homepage": "https://gavingordon.com",
+			"role": "Developer"
+		}
+	],
+	"version": "1.0.0",
+	"minimum-stability": "stable",
+	"homepage": "http://includer.gavingordon.com",
+	"support": {
+		"issues": "https://github.com/gavinggordon/includer/issues",
+		"source": "https://github.com/gavinggordon/includer"
+	},
+	"repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/gavinggordon/includer.git"
+		}
+	],
+	"require": {},
+	"require-dev": {
+		"phpunit/phpunit": "4.0.*"
+	},
+	"autoload": {
+			"psr-4": {
+				"GGG\\Includer\\": "src"
+		}
+	}
+}
