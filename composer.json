@@ -3,10 +3,11 @@
 	"description": "A PHP class which provides simple javascript or css asset inclusion.",
 	"license": "MIT",
 	"keywords": [
-	  	"v1.0.0",
+	  	"v1.0.1",
 		"php",
 		"html",
-		"includer",
+		"assetinc",
+		"include",
 		"stylesheet",
 		"link",
 		"css",
@@ -22,17 +23,17 @@
 			"role": "Developer"
 		}
 	],
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"minimum-stability": "stable",
-	"homepage": "http://includer.gavingordon.com",
+	"homepage": "http://assetinc.gavingordon.com",
 	"support": {
-		"issues": "https://github.com/gavinggordon/includer/issues",
-		"source": "https://github.com/gavinggordon/includer"
+		"issues": "https://github.com/gavinggordon/assetinc/issues",
+		"source": "https://github.com/gavinggordon/assetinc"
 	},
 	"repositories": [
 		{
 			"type": "git",
-			"url": "https://github.com/gavinggordon/includer.git"
+			"url": "https://github.com/gavinggordon/assetinc.git"
 		}
 	],
 	"require": {},
