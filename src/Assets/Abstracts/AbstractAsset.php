@@ -5,8 +5,6 @@ namespace GGG\AssetInc\Assets\Abstracts;
 abstract class AbstractAsset
 {
 	
-	protected $assets;
-	
 	public function insert( $asset )
 	{
 		$asset = strtolower( $asset );
