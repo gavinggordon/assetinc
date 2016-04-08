@@ -8,8 +8,10 @@
 		"html",
 		"includer",
 		"stylesheet",
+		"link",
 		"css",
 		"javascript",
+		"script",
 		"js"
 	],
 	"authors": [
