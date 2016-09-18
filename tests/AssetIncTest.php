@@ -1,5 +1,7 @@
 <?php
 
+// PHPUnit testing of GGG\AssetInc
+
 use GGG\AssetInc\AssetInc;
 
 class AssetIncTest extends \PHPUnit_Framework_TestCase
